@@ -12,5 +12,12 @@
     "comedia"
   ],
   "author": "maryi tatiana nova ayala - carlos eduardo ortiz",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "materialize-css": "^0.100.2"
+  }
 }
