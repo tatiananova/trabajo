@@ -14,7 +14,8 @@
   "author": "maryi tatiana nova ayala - carlos eduardo ortiz",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-server-livereload": "^1.9.2"
   },
   "dependencies": {
     "jquery": "^3.2.1",
