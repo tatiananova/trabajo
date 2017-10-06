@@ -13,10 +13,15 @@ gulp.task('server', function() {
       open: true
     }));
 });
-gulp.task('Build', function () {
-  return gulp.src(['*.html','pa*/*.html','im*/*.jpg'])
+gulp.task('build-html', function () {
+  return gulp.src(['*.html','pa*/*.html'])
       .pipe(useref())
       .pipe(gulpif('*.js', uglify()))
       .pipe(gulpif('*.css', minifyCss()))
       .pipe(gulp.dest('dist'));
 });
+gulp.task('builder-assets', function(){
+  return gulp.src('im*/**').
+  pipe(gulp.dest('build'))
+})
+gulp.task('build',['build-html','build-assets'])
