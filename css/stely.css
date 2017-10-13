@@ -4,3 +4,10 @@ body{
 audio{
     width: 100%;
 }
+.titulo{
+    font-weight: 800;
+}
+.fondo{
+    background: rgba(0, 0, 0, 0,6);
+    text-align: justify;
+}
