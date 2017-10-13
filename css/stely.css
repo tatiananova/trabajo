@@ -7,7 +7,11 @@ audio{
 .titulo{
     font-weight: 800;
 }
-.fondo{
-    background: rgba(0, 0, 0, 0,6);
-    text-align: justify;
+
+
+.sp-layer{
+    background: rgba(224, 224, 18, 0.5) !important;
+    width: 100%;
+    text-align: center;
 }
+
