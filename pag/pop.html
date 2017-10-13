@@ -4,144 +4,285 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-     <!-- build:css css/combined.css -->
-     <link rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.min.css">
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-     <link rel="stylesheet" href="../css/stely.css">  
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <!-- build:css css/combined.css -->
+    <link rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="../css/stely.css">  
     <!-- endbuild -->
     <title>Document</title>
 </head>
 <body>
     <nav>
         <div class="nav-wrapper #00bcd4 cyan">
-            <a href="../index.html" class="brand-logo"><img src="../img/log.ico" alt=""></a>
-            <a href="../index.html" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <a href="../index.html" class="brand-logo"><img src="../img/log.ico"></a>
+            <a href="index.html" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="sass.html">Rock</a></li>
-                <li><a href="badges.html">Clasica</a></li>
-                <li><a href="collapsible.html">Metalica</a></li>
+                <li><a href="rock.html">Rock</a></li>
+                <li><a href="badges.html">Hard rock</a></li>
+                <li><a href="collapsible.html">Cumbia</a></li>
                 <li><a href="pop.html">Pop</a></li>
             </ul>
             <ul class="side-nav #40c4ff light-blue accent-2" id="mobile-demo">
-                <li><a href="sass.html">Rock</a></li>
-                <li><a href="badges.html">Clasica</a></li>
-                <li><a href="collapsible.html">Metalica</a></li>
+                <li><a href="rock.html">Rock</a></li>
+                <li><a href="badges.html">Hard rock</a></li>
+                <li><a href="collapsible.html">Cumbia</a></li>
                 <li><a href="pop.html">Pop</a></li>
             </ul>
         </div>
     </nav>
-    <div class="container"></div>
-        <div class="row">
-            <div class="col offset-s6 offset-m7 offset-l8 m5 l4">
-                <nav>
-                    <div class="nav-wrapper #607d8b blue-grey">
-                        <form>
-                            <div class="input-field">
-                                <input id="search" type="search" required>
-                                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-                                <i class="material-icons">close</i>
-                            </div>
-                        </form>
-                    </div>
-                </nav> 
-            </div>
-            <div class="carousel">
-                <a class="carousel-item" href="#one!"><img src="../img/Madonna.jpg"></a>
-                <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
-                <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
-                <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
-                <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
-              </div>
-            <div class="col offset-s1 offset-m2  s10 m4 l4">
-                <div class="card Small">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="../img/Madonna.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Madonna<i class="material-icons right">more_vert</i></span>
-                        <p><audio src="../music/Korn - Blind.mp3" controls controlsList="nodownload"></audio></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Madonna<i class="material-icons right">close</i></span>
-                        <p>Desde 1983, Madonna no ha parado de conseguir éxitos en el mundo de la música. Sus canciones de aquella época, entre las que destacan “Like a Virgin” o “Material Girl”, o las más actuales, como “Hollywood” o “Hung Up”, hacen que sea considerada la reina de la música pop.</p>
-                    </div>
+    <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="../img/Madonna.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
+        <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
+        <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
+        <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
+    </div>
+    <!--primer cuadro -->
+    <div class="row">
+        <div class="col offset-s1 offset-m2  s10 m4 l4">
+            <div class="card Medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="../img/Madonna.jpg">
                 </div>
-            </div>
-
-            <div class="col offset-s1 offset-m2  s10 m4 l4">
-                    <div class="card Small">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="../img/Madonna.jpg">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Madonna<i class="material-icons right">more_vert</i></span>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Madonna<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Madonna<i class="material-icons right">close</i></span>
+                    <ul class="collection">
+                        <li class="collection-item avatar">
+                            <img src="../img/Madonna.jpg" alt="" class="circle">
+                            <span class="title">Titulo: A.D.I.D.A.S.</span>
+                            <p>Album: All Mixed Up <br></p>
+                            <p><audio src="../music/Korn - A.D.I.D.A.S..mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">folder</i>
+                            <span class="title">Titulo: Blind</span>
+                            <p>Album: Korn <br></p>
                             <p><audio src="../music/Korn - Blind.mp3" controls controlsList="nodownload"></audio></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Madonna<i class="material-icons right">close</i></span>
-                            <p>Desde 1983, Madonna no ha parado de conseguir éxitos en el mundo de la música. Sus canciones de aquella época, entre las que destacan “Like a Virgin” o “Material Girl”, o las más actuales, como “Hollywood” o “Hung Up”, hacen que sea considerada la reina de la música pop.</p>
-                        </div>
-                    </div>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle green">insert_chart</i>
+                            <span class="title">Titulo: Coming Undone</span>
+                            <p>Album: See You on The Other Side.<br></p>
+                            <p><audio src="../music/Korn - Coming Undone.mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle red">play_arrow</i>
+                            <span class="title">Titulo: Got The Life</span>
+                            <p>Album: The Path of Totatly Tour <br></p>
+                            <p><audio src="../music/Korn - Got The Life.mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                    </ul>
                 </div>
-
-            <div class="col offset-s1 offset-m2 s10 m4 l4">
-                <div class="card Small">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="../img/Madonna.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Madonna<i class="material-icons right">more_vert</i></span>
-                        <p><audio src="../music/Korn - Blind.mp3" controls controlsList="nodownload"></audio></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Madonna<i class="material-icons right">close</i></span>
-                        <p>Desde 1983, Madonna no ha parado de conseguir éxitos en el mundo de la música. Sus canciones de aquella época, entre las que destacan “Like a Virgin” o “Material Girl”, o las más actuales, como “Hollywood” o “Hung Up”, hacen que sea considerada la reina de la música pop.</p>
-                    </div>
+            </div>
+        </div>    
+        <!--segundo cuadro -->
+        <div class="col offset-s1  s10 m4 l4">
+            <div class="card Medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="../img/jj.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Jesse & Joy<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Madonna<i class="material-icons right">close</i></span>
+                    <ul class="collection">
+                        <li class="collection-item avatar">
+                            <img src="../img/aje.jpg" alt="" class="circle">
+                            <span class="title">Titulo: Adios</span>
+                            <p>Album: Electricidad<br></p>
+                            <p><audio src="../music/ADIOS- JESSE Y JOY.mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <img src="../img/ajq.jpg" alt="" class="circle">
+                            <span class="title">Titulo: ¡Corre!</span>
+                            <p>Album: ¿Con quién se queda el perro? <br></p>
+                            <p><audio src="../music/Corre - Jesse & Joy (letra).mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <img src="../img/ajv.jpg" alt="" class="circle">
+                            <span class="title">Titulo: Espacio sideral</span>
+                            <p>Album: Esta es mi vida<br></p>
+                            <p><audio src="../music/Espacio Sideral- Jesse & Joy.mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <img src="../img/aju.jpeg" alt="" class="circle">
+                            <span class="title">Titulo:Me soltaste</span>
+                            <p>Album: Un besito más<br></p>
+                            <p><audio src="../music/Jesse & Joy - Me soltaste (Letra) HD.mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-        
-        
-
-        
-
-
-
-
-
-
-
-
-        <footer class="page-footer #26a69a teal lighten-1">
-            <div class="container">
-                <div class="row">
-                    <div class="col l6 s12">
-                        <h5 class="white-text">LOVING THE MUSIC</h5>
-                        <p class="class=flow-text grey-text text-lighten-4">"La música es una revelación mayor que toda la sabiduría y la filosofía". Beethoven.</p>
-                    </div>
-                    <div class="col l4 offset-l2 s12">
-                        <h5 class="white-text"><i class="Small material-icons">supervisor_account</i> Contactenos</h5>
-                        <ul>
-                            <li><a class="grey-text text-lighten-3" href="https://accounts.google.com/ServiceLogin/identifier?hl=es&passive=true&continue=https%3A%2F%2Fwww.google.co.uk%2F%3Fgfe_rd%3Dcr%26ei%3DHwVTWI6IK-Ww8wftmZugCw%26gws_rd%3Dcr%26dcr%3D0&flowName=GlifWebSignIn&flowEntry=AddSession">Gmail</a></li>
-                            <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/?stype=lo&jlou=AfdLNLE7a1gpMZVEqEqfnjzP2u63ztgussdL04EXwvMudSk2TcB0odkPPSSMeGm0CIfuRBUYIwTRGCi87NrJbVA2D6EC7hQRHnKZgn3ZFy7dNw&smuh=805&lh=Ac-FZocaK1pw1UqU">Facebokk</a></li>
-                            <li><a class="grey-text text-lighten-3" href="https://twitter.com/">twitteR</a></li>
-                        </ul>
-                    </div>
+        <!--tercer cuadro -->
+        <div class="col offset-s1  s10 m4 l4">
+            <div class="card Medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="../img/ha.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">HA*ASH<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Madonna<i class="material-icons right">close</i></span>
+                    <ul class="collection">
+                        <li class="collection-item avatar">
+                            <img src="../img/aha.jpg" alt="" class="circle">
+                            <span class="title">Titulo: Dos copas de más</span>
+                            <p>Album:Primera Fila<br></p>
+                            <p><audio src="../music/HA-ASH - Dos Copas de Más (Primera Fila - Hecho Realidad [En Vivo]).mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <img src="../img/aham.jpg" alt="" class="circle">
+                            <span class="title">Titulo: Vamos a Llamarlo Amor</span>
+                            <p>Album: Habitación doble <br></p>
+                            <p><audio src="../music/♥ VAMOS A LLAMARLO AMOR - HA HASH ♥.mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <img src="../img/ahap.jpg" alt="" class="circle">
+                            <span class="title">Titulo: Odio Amarte</span>
+                            <p>Album: Ha*Ash<br></p>
+                            <p><audio src="../music/Ha Ash - Odio Amarte  (Letra).mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <img src="../img/ahao.jpg" alt="" class="circle">
+                            <span class="title">Titulo: ¿Qué hago yo?</span>
+                            <p>Album: Mundos opuestos<br></p>
+                            <p><audio src="../music/Ha-Ash-Que hago yo Letra.mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="footer-copyright">
-                <div class="container">
-                    © 2017 company loving the music Tatiana Ayala - Carlos Ortiz
-                    <a class="grey-text text-lighten-4 right" href="https://github.com/tatiananova/trabajo">MIT License</a>
+        </div>
+        <!--cuarto cuadro -->
+        <div class="col offset-s1  s10 m4 l4">
+            <div class="card Medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="../img/r.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">REIK<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Madonna<i class="material-icons right">close</i></span>
+                    <ul class="collection">
+                        <li class="collection-item avatar">
+                            <img src="../img/Madonna.jpg" alt="" class="circle">
+                            <span class="title">Titulo: A.D.I.D.A.S.</span>
+                            <p>Album: All Mixed Up <br></p>
+                            <p><audio src="../music/Korn - A.D.I.D.A.S..mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">folder</i>
+                            <span class="title">Titulo: Blind</span>
+                            <p>Album: Korn <br></p>
+                            <p><audio src="../music/Korn - Blind.mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle green">insert_chart</i>
+                            <span class="title">Titulo: Coming Undone</span>
+                            <p>Album: See You on The Other Side.<br></p>
+                            <p><audio src="../music/Korn - Coming Undone.mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle red">play_arrow</i>
+                            <span class="title">Titulo: Got The Life</span>
+                            <p>Album: The Path of Totatly Tour <br></p>
+                            <p><audio src="../music/Korn - Got The Life.mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </footer>        
-    </div>
-<!-- build:js scripts/combined.js -->   
-<script src="../node_modules/jquery/dist/jquery.min.js"></script>
-<script src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
-<script src="../js/Main.js"></script>
-<!-- endbuild -->
+        </div>
+        <!--quinto cuadro -->
+        <div class="col offset-s1  s10 m4 l4">
+            <div class="card Medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="../img/c.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Camila<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Madonna<i class="material-icons right">close</i></span>
+                    <ul class="collection">
+                        <li class="collection-item avatar">
+                            <img src="../img/Madonna.jpg" alt="" class="circle">
+                            <span class="title">Titulo: A.D.I.D.A.S.</span>
+                            <p>Album: All Mixed Up <br></p>
+                            <p><audio src="../music/Korn - A.D.I.D.A.S..mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">folder</i>
+                            <span class="title">Titulo: Blind</span>
+                            <p>Album: Korn <br></p>
+                            <p><audio src="../music/Korn - Blind.mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle green">insert_chart</i>
+                            <span class="title">Titulo: Coming Undone</span>
+                            <p>Album: See You on The Other Side.<br></p>
+                            <p><audio src="../music/Korn - Coming Undone.mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle red">play_arrow</i>
+                            <span class="title">Titulo: Got The Life</span>
+                            <p>Album: The Path of Totatly Tour <br></p>
+                            <p><audio src="../music/Korn - Got The Life.mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--sexto cuadro -->
+        <div class="col offset-s1  s10 m4 l4">
+            <div class="card Medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="../img/Madonna.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Madonna<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Madonna<i class="material-icons right">close</i></span>
+                    <ul class="collection">
+                        <li class="collection-item avatar">
+                            <img src="../img/Madonna.jpg" alt="" class="circle">
+                            <span class="title">Titulo: A.D.I.D.A.S.</span>
+                            <p>Album: All Mixed Up <br></p>
+                            <p><audio src="../music/Korn - A.D.I.D.A.S..mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">folder</i>
+                            <span class="title">Titulo: Blind</span>
+                            <p>Album: Korn <br></p>
+                            <p><audio src="../music/Korn - Blind.mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle green">insert_chart</i>
+                            <span class="title">Titulo: Coming Undone</span>
+                            <p>Album: See You on The Other Side.<br></p>
+                            <p><audio src="../music/Korn - Coming Undone.mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle red">play_arrow</i>
+                            <span class="title">Titulo: Got The Life</span>
+                            <p>Album: The Path of Totatly Tour <br></p>
+                            <p><audio src="../music/Korn - Got The Life.mp3" controls controlsList="nodownload"></audio></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- build:js scripts/combined.js -->
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    <script src="../js/Main.js"></script>
+    <!-- endbuild -->
 </body> 
 </html>
