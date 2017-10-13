@@ -16,11 +16,11 @@ gulp.task('server', function() {
 gulp.task('build-html', function () {
   return gulp.src(['*.html','pa*/*.html'])
       .pipe(useref())
-      .pipe(gulpif('*.js', uglify()))
-      .pipe(gulpif('*.css', minifyCss()))
-      .pipe(gulp.dest('dist'));
+      .pipe(gulpif('j*/*.js', uglify()))
+      .pipe(gulpif('cs*/*.css', minifyCss()))
+      .pipe(gulp.dest('build'));
 });
-gulp.task('builder-assets', function(){
+gulp.task('build-assets', function(){
   return gulp.src('im*/**').
   pipe(gulp.dest('build'))
 })
