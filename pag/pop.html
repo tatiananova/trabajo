@@ -4,22 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
      <!-- build:css ../css/main.css build/styles-->
      <link rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.min.css">
+     <link href="../img/ico.ico" type="imagen/x-icon" rel="ahortcut icon" />
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="../node_modules/slider-pro/dist/css/slider-pro.min.css"/> 
      <link rel="stylesheet" href="../css/stely.css">  
-
     <!-- endbuild -->
-
     <title>Pop</title>
 </head>
 <body>
     <nav>
         <div class="nav-wrapper #00bcd4 cyan">
-            <a href="../index.html" class="brand-logo"><img src="../img/log.ico"></a>
+            <a href="../index.html" class="brand-logo center"><img src="../img/loving (1).png"></a>
             <a href="index.html" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="rock.html">Rock</a></li>
@@ -37,39 +35,40 @@
             </ul>
         </div>
     </nav>
-    <div class="slider">
-        <ul class="slides">
-          <li>
-            <img src="https://lorempixel.com/580/250/nature/1"> <!-- random image -->
-            <div class="caption center-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-          </li>
-          <li>
-            <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
-            <div class="caption left-align">
-              <h3>Left Aligned Caption</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-          </li>
-          <li>
-            <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
-            <div class="caption right-align">
-              <h3>Right Aligned Caption</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-          </li>
-          <li>
-            <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
-            <div class="caption center-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-          </li>
-        </ul>
+    <div class="slider-pro" id="my-slider">
+        <div class="sp-slides">
+          <!-- Slide 1 -->
+          <div class="sp-slide">
+            <img class="sp-image" src="../img/camila.jpg"/>
+          </div>
+          <!-- Slide 2 -->
+          <div class="sp-slide">
+              <img class="sp-image" src="../img/haash.jpg"/>
+              <h3 class="sp-layer  ">Lorem ipsum dolor sit amet</h3>
+          </div>
+          <!-- Slide 3 -->
+        <div class="sp-slide">
+            <img class="sp-image" src="../img/jesse&joy.jpg"/>
+            <h3 class="sp-layer  ">Lorem ipsum dolor sit amet</h3>
+        </div>
+        <!-- Slide 4 -->
+        <div class="sp-slide">
+              <img class="sp-image" src="../img/maroon_5.jpg"/>
+              <h3 class="sp-layer">Lorem ipsum dolor sit amet</h3>
+        </div>
+        <!-- Slide 5 -->
+        <div class="sp-slide">
+            <img class="sp-image" src="../img/morat.jpg"/>
+            <h3 class="sp-layer bajar">Lorem ipsum dolor sit amet</h3><br><br>
+            <p class="sp-layer bajar">consectetur adipisicing elit</p>
+        </div>
+        <!-- Slide 6 -->
+        <div class="sp-slide">
+            <img class="sp-image" src="../img/reik.jpg"/>
+            <h3 class="sp-layer">Lorem ipsum dolor sit amet</h3>
       </div>
-      </div>
+     </div>
+    </div>
     <!--primer cuadro -->
     <div class="row">
         <div class="col offset-s1 offset-m2  s10 m4 l4">
@@ -78,34 +77,34 @@
                     <img class="activator" src="../img/morat.jpg">
                 </div>
                 <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Morat<i class="material-icons right">more_vert</i></span>
+                    <span class="card-title activator grey-text text-darken-4"><a class="titulo">Morat</a><i class="material-icons right">more_vert</i></span>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Morat<i class="material-icons right">close</i></span>
                     <ul class="collection">
                         <li class="collection-item avatar">
                             <img src="../img/morat-sobre-el-amor-y-sus-efectos-secundarios.jpg" alt="" class="circle">
-                            <span class="title">Titulo: A.D.I.D.A.S.</span>
-                            <p>Album: All Mixed Up <br></p>
-                            <p><audio src="../music/Korn - A.D.I.D.A.S..mp3" controls controlsList="nodownload"></audio></p>
+                            <span class="title">Titulo: Mi Nuevo Vicio</span>
+                            <p>Album: Sobre El Amor Y Sus Efectos Secundarios<br></p>
+                            <p><audio src="../music/Morat - Mi Nuevo Vicio (Lyric).mp3" controls controlsList="nodownload"></audio></p>
                         </li>
                         <li class="collection-item avatar">
                             <img src="../img/morat-grabado-en-madera.jpg" alt="" class="circle">
-                            <span class="title">Titulo: Blind</span>
-                            <p>Album: Korn <br></p>
-                            <p><audio src="../music/Korn - Blind.mp3" controls controlsList="nodownload"></audio></p>
+                            <span class="title">Titulo: Di Que No Te Vas </span>
+                            <p>Album: Grabado A Madera <br></p>
+                            <p><audio src="../music/Morat - Di que no te vas [LETRA -LYRIC].mp3" controls controlsList="nodownload"></audio></p>
                         </li>
                         <li class="collection-item avatar">
                             <img src="../img/morat-sobre-el-amor-y-sus-efectos-secundarios.jpg" alt="" class="circle">
-                            <span class="title">Titulo: Coming Undone</span>
-                            <p>Album: See You on The Other Side.<br></p>
-                            <p><audio src="../music/Korn - Coming Undone.mp3" controls controlsList="nodownload"></audio></p>
+                            <span class="title">Titulo: Ladrona</span>
+                            <p>Album: Sobre El Amor Y Sus Efectos Secundarios<br></p>
+                            <p><audio src="../music/Morat - Ladrona (Letra).mp3" controls controlsList="nodownload"></audio></p>
                         </li>
                         <li class="collection-item avatar">
                             <img src="../img/morat-grabado-en-madera.jpg" alt="" class="circle">
-                            <span class="title">Titulo: Got The Life</span>
-                            <p>Album: The Path of Totatly Tour <br></p>
-                            <p><audio src="../music/Korn - Got The Life.mp3" controls controlsList="nodownload"></audio></p>
+                            <span class="title">Titulo: Cuanto Me Duele</span>
+                            <p>Album: Grabado A Madera<br></p>
+                            <p><audio src="../music/Morat - Cuánto me duele (Letra  Lyric).mp3" controls controlsList="nodownload"></audio></p>
                         </li>
                     </ul>
                 </div>
@@ -118,7 +117,7 @@
                     <img class="activator" src="../img/jesse&joy.jpg">
                 </div>
                 <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Jesse & Joy<i class="material-icons right">more_vert</i></span>
+                    <span class="card-title activator grey-text text-darken-4"><a class="titulo">Jesse & Joy</a><i class="material-icons right">more_vert</i></span>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Jesse & Joy<i class="material-icons right">close</i></span>
@@ -158,7 +157,7 @@
                     <img class="activator" src="../img/haash.jpg">
                 </div>
                 <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">HA*ASH<i class="material-icons right">more_vert</i></span>
+                    <span class="card-title activator grey-text text-darken-4"> <a class="titulo">HA*ASH</a><i class="material-icons right">more_vert</i></span>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">HA*ASH<i class="material-icons right">close</i></span>
@@ -198,34 +197,34 @@
                     <img class="activator" src="../img/reik.jpg">
                 </div>
                 <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">REIK<i class="material-icons right">more_vert</i></span>
+                    <span class="card-title activator grey-text text-darken-4"><a class="titulo">REIK</a><i class="material-icons right">more_vert</i></span>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">REIK<i class="material-icons right">close</i></span>
                     <ul class="collection">
                         <li class="collection-item avatar">
                             <img src="../img/reik_sesion_metropolitana.jpg" alt="" class="circle">
-                            <span class="title">Titulo: A.D.I.D.A.S.</span>
-                            <p>Album: All Mixed Up <br></p>
-                            <p><audio src="../music/Korn - A.D.I.D.A.S..mp3" controls controlsList="nodownload"></audio></p>
+                            <span class="title">Titulo: November Sin Ti</span>
+                            <p>Album: Sesion Metropolitana<br></p>
+                            <p><audio src="../music/Reik Noviembre Sin Ti con letra.mp3" controls controlsList="nodownload"></audio></p>
                         </li>
                         <li class="collection-item avatar">
                             <img src="../img/reik_secuencia.jpg" alt="" class="circle">
-                            <span class="title">Titulo: Blind</span>
-                            <p>Album: Korn <br></p>
-                            <p><audio src="../music/Korn - Blind.mp3" controls controlsList="nodownload"></audio></p>
+                            <span class="title">Titulo: Sabes</span>
+                            <p>Album: Secuencia <br></p>
+                            <p><audio src="../music/Reik - Sabes [Letra].mp3" controls controlsList="nodownload"></audio></p>
                         </li>
                         <li class="collection-item avatar">
                             <img src="../img/reik_reik.jpg" alt="" class="circle">
-                            <span class="title">Titulo: Coming Undone</span>
-                            <p>Album: See You on The Other Side.<br></p>
-                            <p><audio src="../music/Korn - Coming Undone.mp3" controls controlsList="nodownload"></audio></p>
+                            <span class="title">Titulo: Yo Quisiera</span>
+                            <p>Album: REIK<br></p>
+                            <p><audio src="../music/Reik - Yo Quisiera (Letras).mp3" controls controlsList="nodownload"></audio></p>
                         </li>
                         <li class="collection-item avatar">
                             <img src="../img/reik-des-amor.jpg" alt="" class="circle">
-                            <span class="title">Titulo: Got The Life</span>
-                            <p>Album: The Path of Totatly Tour <br></p>
-                            <p><audio src="../music/Korn - Got The Life.mp3" controls controlsList="nodownload"></audio></p>
+                            <span class="title">Titulo: Voy A Olvidarte</span>
+                            <p>Album: Des/Amor<br></p>
+                            <p><audio src="../music/Voy a Olvidarte   Reik Letra.mp3" controls controlsList="nodownload"></audio></p>
                         </li>
                     </ul>
                 </div>
@@ -238,34 +237,34 @@
                     <img class="activator" src="../img/camila.jpg">
                 </div>
                 <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Camila<i class="material-icons right">more_vert</i></span>
+                    <span class="card-title activator grey-text text-darken-4"><a class="titulo">Camila</a><i class="material-icons right">more_vert</i></span>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Camila<i class="material-icons right">close</i></span>
                     <ul class="collection">
                         <li class="collection-item avatar">
                             <img src="../img/camila-Dejarte_De_Amar.jpg" alt="" class="circle">
-                            <span class="title">Titulo: A.D.I.D.A.S.</span>
-                            <p>Album: All Mixed Up <br></p>
-                            <p><audio src="../music/Korn - A.D.I.D.A.S..mp3" controls controlsList="nodownload"></audio></p>
+                            <span class="title">Titulo: Mientes</span>
+                            <p>Album: Dejarte De Amar<br></p>
+                            <p><audio src="../music/Mientes-Camila (con letra).mp3" controls controlsList="nodownload"></audio></p>
                         </li>
                         <li class="collection-item avatar">
                             <img src="../img/camila-Elypse.jpg" alt="" class="circle">
-                            <span class="title">Titulo: Blind</span>
-                            <p>Album: Korn <br></p>
-                            <p><audio src="../music/Korn - Blind.mp3" controls controlsList="nodownload"></audio></p>
+                            <span class="title">Titulo: Perdon</span>
+                            <p>Album: Elypse <br></p>
+                            <p><audio src="../music/Perdón - Camila (Letra).mp3" controls controlsList="nodownload"></audio></p>
                         </li>
                         <li class="collection-item avatar">
                             <img src="../img/camila-todo-cambio.jpg" alt="" class="circle">
-                            <span class="title">Titulo: Coming Undone</span>
-                            <p>Album: See You on The Other Side.<br></p>
-                            <p><audio src="../music/Korn - Coming Undone.mp3" controls controlsList="nodownload"></audio></p>
+                            <span class="title">Titulo: Todo Cambio</span>
+                            <p>Album: Todo Cambio<br></p>
+                            <p><audio src="../music/Camila - Todo Cambio letra.mp3" controls controlsList="nodownload"></audio></p>
                         </li>
                         <li class="collection-item avatar">
                             <img src="../img/camila-unplugged.jpg" alt="" class="circle">
-                            <span class="title">Titulo: Got The Life</span>
-                            <p>Album: The Path of Totatly Tour <br></p>
-                            <p><audio src="../music/Korn - Got The Life.mp3" controls controlsList="nodownload"></audio></p>
+                            <span class="title">Titulo: Colecionista De Canciones</span>
+                            <p>Album: Unplugged<br></p>
+                            <p><audio src="../music/Coleccionista de canciones - Camila (Letra).mp3" controls controlsList="nodownload"></audio></p>
                         </li>
                     </ul>
                 </div>
@@ -278,7 +277,7 @@
                     <img class="activator" src="../img/maroon_5.jpg">
                 </div>
                 <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Maroon 5<i class="material-icons right">more_vert</i></span>
+                    <span class="card-title activator grey-text text-darken-4"><a class="titulo">Maroon 5</a><i class="material-icons right">more_vert</i></span>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Maroon 5<i class="material-icons right">close</i></span>
@@ -317,16 +316,15 @@
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
-              <h5 class="white-text">Footer Content</h5>
-              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              <h5 class="grey-text text-lighten-4 mens">La música expresa lo que no puede ser dicho y aquello sobre lo que es imposible permanecer en silencio. "Victor Hugo"</h5>
             </div>
-            <div class="col l4 offset-l2 s12">
-              <h5 class="white-text">Links</h5>
+            <div class="col l4 offset-l2 s12 cont">
+              <h5 class="white-text">Contactenos</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/?stype=lo&jlou=AfdLNLE7a1gpMZVEqEqfnjzP2u63ztgussdL04EXwvMudSk2TcB0odkPPSSMeGm0CIfuRBUYIwTRGCi87NrJbVA2D6EC7hQRHnKZgn3ZFy7dNw&smuh=805&lh=Ac-FZocaK1pw1UqU"><img src="../img/face (1).png" alt=""></a></li>
+                <li><a class="grey-text text-lighten-3" href="https://twitter.com/?lang=es"><img src="../img/twi (1).png" alt=""></a></li>
+                <li><a class="grey-text text-lighten-3" href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1484935408&rver=6.4.6456.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fmail.live.com%2Fdefault.aspx%3Fmkt%3Des&lc=2058&id=64855&mkt=es-US&cbcxt=mai"><img src="../img/outlook-imag (1).png" alt=""></a></li>
+                <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/?gl=CO&hl=es-419"><img src="../img/you (1).png" alt=""></a></li>
               </ul>
             </div>
           </div>
@@ -334,12 +332,13 @@
         <div class="footer-copyright">
           <div class="container">
             © 2017 Company Loving The Music  Taniana Ayala - Carlos Ortiz
-            <a class="grey-text text-lighten-4 right" href="#!">MIT License</a>
+            <a class="grey-text text-lighten-4 right" href="https://github.com/tatiananova/trabajo">MIT License</a>
           </div>
         </div>
       </footer>
     <!-- build:js ../js/index.js build/js --> 
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/slider-pro/dist/js/jquery.sliderPro.min.js"></script>    
     <script src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
     <script src="../js/Main.js"></script>
     <!-- endbuild -->

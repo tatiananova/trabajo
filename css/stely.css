@@ -11,18 +11,22 @@ audio{
     top:90% !important;
 
 }
-
-
 .sp-layer{
     background: rgba(224, 224, 18, 0.5) !important;
     width: 100%;
     text-align: center;
 }
-
-
 .oo{
    overflow: hidden;
     width: 100%;
     text-align: center;
     display: inline-block;
+
+.cont li{
+    display: inline;
+    padding-right: 20px;
+}
+.mens{
+    
+
 }
