@@ -7,7 +7,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
      <!-- build:css ../css/main.css build/styles-->
      <link rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.min.css">
+     <link href="../img/ico.ico" type="imagen/x-icon" rel="ahortcut icon" />
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="../node_modules/slider-pro/dist/css/slider-pro.min.css"/> 
      <link rel="stylesheet" href="../css/stely.css">  
     <!-- endbuild -->
     <title>Pop</title>
@@ -15,7 +17,7 @@
 <body>
     <nav>
         <div class="nav-wrapper #00bcd4 cyan">
-            <a href="../index.html" class="brand-logo"><img src="../img/log.ico"></a>
+            <a href="../index.html" class="brand-logo center"><img src="../img/loving (1).png"></a>
             <a href="index.html" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="rock.html">Rock</a></li>
@@ -33,39 +35,40 @@
             </ul>
         </div>
     </nav>
-    <div class="slider">
-        <ul class="slides">
-          <li>
-            <img src="https://lorempixel.com/580/250/nature/1"> <!-- random image -->
-            <div class="caption center-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-          </li>
-          <li>
-            <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
-            <div class="caption left-align">
-              <h3>Left Aligned Caption</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-          </li>
-          <li>
-            <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
-            <div class="caption right-align">
-              <h3>Right Aligned Caption</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-          </li>
-          <li>
-            <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
-            <div class="caption center-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-          </li>
-        </ul>
+    <div class="slider-pro" id="my-slider">
+        <div class="sp-slides">
+          <!-- Slide 1 -->
+          <div class="sp-slide">
+            <img class="sp-image" src="../img/camila.jpg"/>
+          </div>
+          <!-- Slide 2 -->
+          <div class="sp-slide">
+              <img class="sp-image" src="../img/haash.jpg"/>
+              <h3 class="sp-layer  ">Lorem ipsum dolor sit amet</h3>
+          </div>
+          <!-- Slide 3 -->
+        <div class="sp-slide">
+            <img class="sp-image" src="../img/jesse&joy.jpg"/>
+            <h3 class="sp-layer  ">Lorem ipsum dolor sit amet</h3>
+        </div>
+        <!-- Slide 4 -->
+        <div class="sp-slide">
+              <img class="sp-image" src="../img/maroon_5.jpg"/>
+              <h3 class="sp-layer">Lorem ipsum dolor sit amet</h3>
+        </div>
+        <!-- Slide 5 -->
+        <div class="sp-slide">
+            <img class="sp-image" src="../img/morat.jpg"/>
+            <h3 class="sp-layer bajar">Lorem ipsum dolor sit amet</h3><br><br>
+            <p class="sp-layer bajar">consectetur adipisicing elit</p>
+        </div>
+        <!-- Slide 6 -->
+        <div class="sp-slide">
+            <img class="sp-image" src="../img/reik.jpg"/>
+            <h3 class="sp-layer">Lorem ipsum dolor sit amet</h3>
       </div>
-      </div>
+     </div>
+    </div>
     <!--primer cuadro -->
     <div class="row">
         <div class="col offset-s1 offset-m2  s10 m4 l4">
@@ -74,7 +77,7 @@
                     <img class="activator" src="../img/morat.jpg">
                 </div>
                 <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Morat<i class="material-icons right">more_vert</i></span>
+                    <span class="card-title activator grey-text text-darken-4"><a class="titulo">Morat</a><i class="material-icons right">more_vert</i></span>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Morat<i class="material-icons right">close</i></span>
@@ -114,7 +117,7 @@
                     <img class="activator" src="../img/jesse&joy.jpg">
                 </div>
                 <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Jesse & Joy<i class="material-icons right">more_vert</i></span>
+                    <span class="card-title activator grey-text text-darken-4"><a class="titulo">Jesse & Joy</a><i class="material-icons right">more_vert</i></span>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Jesse & Joy<i class="material-icons right">close</i></span>
@@ -154,7 +157,7 @@
                     <img class="activator" src="../img/haash.jpg">
                 </div>
                 <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">HA*ASH<i class="material-icons right">more_vert</i></span>
+                    <span class="card-title activator grey-text text-darken-4"> <a class="titulo">HA*ASH</a><i class="material-icons right">more_vert</i></span>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">HA*ASH<i class="material-icons right">close</i></span>
@@ -194,7 +197,7 @@
                     <img class="activator" src="../img/reik.jpg">
                 </div>
                 <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">REIK<i class="material-icons right">more_vert</i></span>
+                    <span class="card-title activator grey-text text-darken-4"><a class="titulo">REIK</a><i class="material-icons right">more_vert</i></span>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">REIK<i class="material-icons right">close</i></span>
@@ -234,7 +237,7 @@
                     <img class="activator" src="../img/camila.jpg">
                 </div>
                 <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Camila<i class="material-icons right">more_vert</i></span>
+                    <span class="card-title activator grey-text text-darken-4"><a class="titulo">Camila</a><i class="material-icons right">more_vert</i></span>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Camila<i class="material-icons right">close</i></span>
@@ -274,7 +277,7 @@
                     <img class="activator" src="../img/maroon_5.jpg">
                 </div>
                 <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Maroon 5<i class="material-icons right">more_vert</i></span>
+                    <span class="card-title activator grey-text text-darken-4"><a class="titulo">Maroon 5</a><i class="material-icons right">more_vert</i></span>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Maroon 5<i class="material-icons right">close</i></span>
@@ -313,16 +316,15 @@
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
-              <h5 class="white-text">Footer Content</h5>
-              <p class="grey-text text-lighten-4">La música expresa lo que no puede ser dicho y aquello sobre lo que es imposible permanecer en silencio. "Victor Hugo"</p>
+              <h5 class="grey-text text-lighten-4 mens">La música expresa lo que no puede ser dicho y aquello sobre lo que es imposible permanecer en silencio. "Victor Hugo"</h5>
             </div>
-            <div class="col l4 offset-l2 s12">
+            <div class="col l4 offset-l2 s12 cont">
               <h5 class="white-text">Contactenos</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3" href="#!"><img src="../img/face (1).png" alt=""></a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/?stype=lo&jlou=AfdLNLE7a1gpMZVEqEqfnjzP2u63ztgussdL04EXwvMudSk2TcB0odkPPSSMeGm0CIfuRBUYIwTRGCi87NrJbVA2D6EC7hQRHnKZgn3ZFy7dNw&smuh=805&lh=Ac-FZocaK1pw1UqU"><img src="../img/face (1).png" alt=""></a></li>
+                <li><a class="grey-text text-lighten-3" href="https://twitter.com/?lang=es"><img src="../img/twi (1).png" alt=""></a></li>
+                <li><a class="grey-text text-lighten-3" href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1484935408&rver=6.4.6456.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fmail.live.com%2Fdefault.aspx%3Fmkt%3Des&lc=2058&id=64855&mkt=es-US&cbcxt=mai"><img src="../img/outlook-imag (1).png" alt=""></a></li>
+                <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/?gl=CO&hl=es-419"><img src="../img/you (1).png" alt=""></a></li>
               </ul>
             </div>
           </div>
@@ -330,12 +332,13 @@
         <div class="footer-copyright">
           <div class="container">
             © 2017 Company Loving The Music  Taniana Ayala - Carlos Ortiz
-            <a class="grey-text text-lighten-4 right" href="#!">MIT License</a>
+            <a class="grey-text text-lighten-4 right" href="https://github.com/tatiananova/trabajo">MIT License</a>
           </div>
         </div>
       </footer>
     <!-- build:js ../js/index.js build/js --> 
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/slider-pro/dist/js/jquery.sliderPro.min.js"></script>    
     <script src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
     <script src="../js/Main.js"></script>
     <!-- endbuild -->
