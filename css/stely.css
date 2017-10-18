@@ -7,6 +7,10 @@ audio{
 .titulo{
     font-weight: 800;
 }
+.slider-pro h5.sp-layer{
+    top:90% !important;
+
+}
 
 
 .sp-layer{
@@ -15,6 +19,10 @@ audio{
     text-align: center;
 }
 
-.bajar{
-  display: inline-block;
+
+.oo{
+   overflow: hidden;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
 }
