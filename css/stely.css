@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Meddon');
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania&subset=latin-ext');
 body{
     background-color: #cfd8dc;
 }
@@ -21,12 +23,15 @@ audio{
     width: 100%;
     text-align: center;
     display: inline-block;
-
+}
 .cont li{
     display: inline;
     padding-right: 20px;
 }
 .mens{
-    
-
+    font-family: 'Meddon', cursive;
+    font-size: 2em;
+}
+nav {
+    font-family: 'Metal Mania', cursive;
 }
