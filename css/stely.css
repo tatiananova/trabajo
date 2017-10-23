@@ -19,7 +19,7 @@ audio{
     text-align: center;
 }
 .oo{
-   overflow: hidden;
+    background: rgba(224, 224, 18, 0.5) !important;
     width: 100%;
     text-align: center;
     display: inline-block;
